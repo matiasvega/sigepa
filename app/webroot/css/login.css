@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+	background: #67b021;
+	color: #fff;
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+	margin: 0;
+}
+
+#container {
+	text-align: left;
+}
+
+#content{
+	background: #fff;
+	clear: both;
+	color: #333;
+	padding: 50px 20px 40px 20px;
+	overflow: auto;        
+        box-shadow: 5px 5px 50px 6px rgba(0, 0, 0, 0.5);
+        width: 80%;
+        height: 60%;
+        margin:10%;
+}
+
+#powered {
+    text-align: center;
+}
+
+#divBtn {
+    text-align: right;
+    width: 100%;   
+}

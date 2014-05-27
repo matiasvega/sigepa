@@ -1,0 +1,1327 @@
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:20 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:21 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:27 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:28:28 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:29:24 Notice: Notice (8): Undefined variable: regs in [/var/www/html/devel/sigepa/app/webroot/css.php, line 3]
+Trace:
+include - APP/webroot/css.php, line 3
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 12:29:24 Notice: Notice (8): Undefined variable: templateModified in [/var/www/html/devel/sigepa/app/webroot/css.php, line 6]
+Trace:
+include - APP/webroot/css.php, line 6
+AssetDispatcher::_filterAsset() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 100
+AssetDispatcher::beforeDispatch() - CORE/Cake/Routing/Filter/AssetDispatcher.php, line 50
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 142
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:17:13 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:17:13 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:17:13 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:19:15 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:19:15 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:19:15 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:03 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:03 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:03 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:18 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:18 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:18 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:57 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:57 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:21:57 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:22:58 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:22:58 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:22:58 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:25:17 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:25:17 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:25:17 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:26:36 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:26:36 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:26:36 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:01 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:01 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:01 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:19 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:19 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:19 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:40 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:40 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:40 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:46 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:46 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:27:46 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:29:10 Notice: Notice (8): Undefined index: Droga in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 82]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:29:10 Notice: Notice (8): Undefined index: Contraindicaciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 88]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 88
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:29:10 Notice: Notice (8): Undefined index: Composiciones in [/var/www/html/devel/sigepa/app/View/Medicamentos/view_medicamento.ctp, line 101]
+Trace:
+include - APP/View/Medicamentos/view_medicamento.ctp, line 101
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:34:35 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:34:35 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:34:35 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 9]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 9
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:39:12 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:39:12 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:39:12 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 9]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 9
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:39:47 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:39:47 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:39:47 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 9]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 9
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:40:03 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:40:03 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:40:03 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 9]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 9
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:40:28 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:40:28 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:40:28 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 9]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 9
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:43:40 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:43:40 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 5]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 5
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-05-13 22:43:40 Notice: Notice (8): Undefined index: Paciente in [/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp, line 9]
+Trace:
+include - APP/View/Turnos/agenda_diaria.ctp, line 9
+View::_evaluate() - CORE/Cake/View/View.php, line 945
+View::_render() - CORE/Cake/View/View.php, line 907
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
