@@ -34,17 +34,19 @@
         
     echo "</div>";
     
-    foreach ($turnos as $k => $turno) {
-//        dd($turno);
-        $events[$k]['title'] = sprintf('%s, %s', $turno['Paciente']['nombre'], $turno['Paciente']['apellido']);
-        $events[$k]['start'] = $turno['Turno']['fechaHora'];
-        $events[$k]['allDay'] = false;
+    if (!empty($turnos)) {        
+        foreach ($turnos as $k => $turno) {
+    //        dd($turno);
+            $events[$k]['title'] = sprintf('%s, %s', $turno['Paciente']['nombre'], $turno['Paciente']['apellido']);
+            $events[$k]['start'] = $turno['Turno']['fechaHora'];
+            $events[$k]['allDay'] = false;
+        }
+
+    //    dd($events);
+    //    dd(json_encode($events));
+
+        echo $this->element('calendar', array('events' => $events)); 
     }
-    
-//    dd($events);
-//    dd(json_encode($events));
-    
-    echo $this->element('calendar', array('events' => $events)); 
 ?>
 <div id="add-event"></div>
 <style>
