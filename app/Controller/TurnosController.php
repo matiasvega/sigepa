@@ -36,16 +36,8 @@ class TurnosController extends AppController {
 		$this->Turno->recursive = 0;
                 $turnos = $this->Turno->find('all');
                 
-                 if (!empty($turnos)) {
-                    $this->set('turnos', $turnos);
-                } else {
-                    $this->Session->setFlash(__('No se encontraron turnos registrados en el calendario.'), 'flash_error');
-                    return $this->redirect(array(
-                                                'controller' => 'pacientes',
-                                                'action' => 'index'
-                                                )
-                                            );
-                }                                                
+                $this->set('turnos', $turnos);
+
                 
 	}
 
