@@ -284,7 +284,7 @@ CREATE TABLE IF NOT EXISTS `aros_acos` (
 
 
 
-NSERT INTO `aros_acos` (`id`, `aro_id`, `aco_id`, `_create`, `_read`, `_update`, `_delete`) VALUES
+INSERT INTO `aros_acos` (`id`, `aro_id`, `aco_id`, `_create`, `_read`, `_update`, `_delete`) VALUES
 (1, 1, 1, '1', '1', '1', '1'),
 (2, 3, 178, '1', '1', '1', '1'),
 (3, 3, 123, '1', '1', '1', '1'),
