@@ -35,7 +35,17 @@ class TurnosController extends AppController {
             
 		$this->Turno->recursive = 0;
                 $turnos = $this->Turno->find('all');
-                $this->set('turnos', $turnos);
+                
+                 if (!empty($turnos)) {
+                    $this->set('turnos', $turnos);
+                } else {
+                    $this->Session->setFlash(__('No se encontraron turnos registrados en el calendario.'), 'flash_error');
+                    return $this->redirect(array(
+                                                'controller' => 'pacientes',
+                                                'action' => 'index'
+                                                )
+                                            );
+                }                                                
                 
 	}
 
@@ -167,8 +177,12 @@ class TurnosController extends AppController {
 //                    dd($turnos);
                     $this->set('turnos', $turnos);
                 } else {
-                    $this->Session->setFlash(__('No se encontraron turnos registrados en la agenda diaria el dia.' . date('Y-m-d')), 'flash_error');
-                    return $this->redirect(array('action' => 'index'));
+                    $this->Session->setFlash(__('No se encontraron turnos registrados en la agenda diaria el dia ' . date('d-m-Y') . '.'), 'flash_error');
+                    return $this->redirect(array(
+                                                'controller' => 'pacientes',
+                                                'action' => 'index'
+                                                )
+                                            );
                 }
 	}
         
