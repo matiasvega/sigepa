@@ -34,6 +34,7 @@
         
     echo "</div>";
     
+    $events = array();
     if (!empty($turnos)) {        
         foreach ($turnos as $k => $turno) {
     //        dd($turno);
@@ -41,12 +42,12 @@
             $events[$k]['start'] = $turno['Turno']['fechaHora'];
             $events[$k]['allDay'] = false;
         }
-
+    }
     //    dd($events);
     //    dd(json_encode($events));
 
         echo $this->element('calendar', array('events' => $events)); 
-    }
+    
 ?>
 <div id="add-event"></div>
 <style>
