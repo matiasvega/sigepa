@@ -171,7 +171,6 @@ class TurnosController extends AppController {
                 } else {
                     $this->Session->setFlash(__('No se encontraron turnos registrados en la agenda diaria el dia ' . date('d-m-Y') . '.'), 'flash_error');
                     return $this->redirect(array(
-                                                'controller' => 'pacientes',
                                                 'action' => 'index'
                                                 )
                                             );
