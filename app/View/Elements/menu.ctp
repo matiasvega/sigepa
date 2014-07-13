@@ -173,13 +173,18 @@
                         'nombre' => 'Preferencias de Usuario',
                         'param' => $this->Session->read('Auth.User.id'),
                     ),
+                    array(
+                        'controller' => 'admin',
+                        'action' => 'acl',
+                        'nombre' => 'Privilegios',
+                    ),
                 ),
             ),
         );
                 
 //        dd($itemsMenu);
         
-//        dd($this->Session->read('Auth.User.grantActions'));
+//        dd($this->Session->read('Auth.User.group_id'));
 //        dd($this->Session->read('Auth.User.grantActions'));
         
         
@@ -211,7 +216,7 @@
             if (!empty($itemMenu['subItems'])) {
                 $html[] = " <ul>";
                 foreach ($itemMenu['subItems'] as $subItem) {
-                    if (verifyPrivileges($this->Session->read('Auth.User.grantActions'), $subItem['controller'], $subItem['action']))                     {
+                    if (verifyPrivileges($this->Session->read('Auth.User.grantActions'), $subItem['controller'], $subItem['action']) || $this->Session->read('Auth.User.group_id') == 1)                     {
                         $param = (!empty($subItem['param']))?$param = $subItem['param']: $param = '';
                         
                         $html[] = sprintf('<li> %s </li>', 

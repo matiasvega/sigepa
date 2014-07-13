@@ -31,4 +31,13 @@ class ExamenesFisico extends AppModel {
 			'order' => ''
 		)
 	);
+        
+        function afterSave($created) {
+            // Guardo la fecha de ultima modificacion en el paciente
+            $data['Paciente']['id'] = $this->data['ExamenesFisico']['pacientes_id'];
+            $data['Paciente']['fechaUltimaConsulta'] = date('Y-m-d');
+            
+            ClassRegistry::init('Paciente')->save($data);
+            
+        }
 }

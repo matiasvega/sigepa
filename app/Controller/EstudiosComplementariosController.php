@@ -22,7 +22,7 @@ class EstudiosComplementariosController extends AppController {
  */
 	public function index() {
 		$this->EstudiosComplementario->recursive = 0;
-		$this->set('estudiosComplementarios', $this->Paginator->paginate());
+		$this->set('estudiosComplementarios', $this->EstudiosComplementario->find('all'));
 	}
         
         public function public_index() {
@@ -55,7 +55,7 @@ class EstudiosComplementariosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->EstudiosComplementario->create();
 			if ($this->EstudiosComplementario->save($this->request->data)) {
-				$this->Session->setFlash(__('The estudios complementario has been saved'));
+				$this->Session->setFlash(__('Los datos se guardaron correctamente'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The estudios complementario could not be saved. Please, try again.'));
@@ -79,7 +79,7 @@ class EstudiosComplementariosController extends AppController {
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->EstudiosComplementario->save($this->request->data)) {
-				$this->Session->setFlash(__('The estudios complementario has been saved'));
+				$this->Session->setFlash(__('Los datos se guardaron correctamente'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The estudios complementario could not be saved. Please, try again.'));
@@ -88,7 +88,7 @@ class EstudiosComplementariosController extends AppController {
 			$options = array('conditions' => array('EstudiosComplementario.' . $this->EstudiosComplementario->primaryKey => $id));
 			$this->request->data = $this->EstudiosComplementario->find('first', $options);
 		}
-		$pacientes = $this->EstudiosComplementario->Paciente->find('list');
+//		$pacientes = $this->EstudiosComplementario->Paciente->find('list');
 		$this->set(compact('pacientes'));
 	}
 
@@ -106,10 +106,10 @@ class EstudiosComplementariosController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->EstudiosComplementario->delete()) {
-			$this->Session->setFlash(__('Estudios complementario deleted'));
+			$this->Session->setFlash(__('Datos eliminados'), 'flash_ok');
 			return $this->redirect(array('action' => 'index'));
 		}
-		$this->Session->setFlash(__('Estudios complementario was not deleted'));
+		$this->Session->setFlash(__('Ups! No se pudieron eliminar los datos!'), 'flash_error');
 		return $this->redirect(array('action' => 'index'));
 	}
 }

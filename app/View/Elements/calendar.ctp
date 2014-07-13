@@ -5,7 +5,6 @@ $addTurno = $this->Html->url(array(
          "action" => "add",
      ), true);
 
-//d($events);
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -22,7 +21,11 @@ $addTurno = $this->Html->url(array(
 		var y = date.getFullYear();
 		
 		var calendar = $('#calendar').fullCalendar({
+                        minTime: "08:00:00",
+                        maxTime: "22:00:00",
 			theme: true,
+                        defaultView: 'agendaWeek',
+                        allDaySlot: false,
                         weekends: false,
                         header: {
 				left: 'prev,next today',
@@ -64,14 +67,16 @@ $addTurno = $this->Html->url(array(
 			editable: true,			
                         dayClick: function(date, allDay, jsEvent, view) {
 //                            console.log('Especialidad: ' + $('#especialidad_id').val());
-//                            console.log('Profesional: ' + $('#profesional_id').val());
+//                            console.log('Profesional: ' + $('#profesional_id').val());                            
                             var today = new Date();
+                            
+                            console.log(allDay);
+                            console.log(date);
+                            console.log(today);
+                            console.log(date.toDateString());                            
+                            console.log(today.toDateString());
+                            
                             if (date >= today) {
-//                                console.log('si');
-                                if (allDay) {
-                                    //alert('Clicked on the entire day: ' + date);
-//                                    console.log('xxx');
-//                                    console.log(date);
                                     $.ajax({
                                         type: 'GET',
 //                                        data: date,
@@ -100,21 +105,31 @@ $addTurno = $this->Html->url(array(
                                                   effect: "fade",
                                                   duration: 500,
                                                 },
-//                                                buttons: {
-//                                                    Cerrar: function() {
-//                                                        $(this).dialog("close");
-//                                                    },
-//                                                 }
                                             });
-//                                            $("#add-event").css("zIndex", "99999");
                                     });
-                                }else{
-                                    alert('Clicked on the slot: ' + date);
-                                }                                
+
                             } else {
-                                console.log('no');
+                                alertPnotify("error", "ERROR","No pueden registrarse turnos anteriores en el tiempo.");
+//                                alertPnotify("error", "ERROR","No pueden registrarse turnos para dias anteriores al " + today.getDate() + '/' + (today.getMonth()+1) + '/' + today.getFullYear() + ".");
                             }
 
+                       },
+                       eventClick: function(calEvent, jsEvent, view) {
+                            console.log(calEvent);
+                            alert('Event: ' + calEvent.title);
+                            alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
+                            alert('View: ' + view.name);
+
+                            // change the border color just for fun
+                            $(this).css('border-color', 'red');
+
+                        },
+                       eventDragStop: function(event, jsEvent, ui, view) { 
+                        alert('xxxxxxxxxxxxxxxxxx');
+                        console.log(event);
+                        console.log(event.start);
+                        console.log(event._start);
+//                        console.log(jsEvent);
                        },
                        events: <?php echo json_encode($events); ?>,
 		});

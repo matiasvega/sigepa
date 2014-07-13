@@ -36,4 +36,14 @@ class Diagnostico extends AppModel {
 			'order' => ''
 		)
 	);
+        
+        function afterSave($created) {
+//            dd($this->data);
+            // Guardo la fecha de ultima modificacion en el paciente
+            $data['Paciente']['id'] = $this->data['Diagnostico']['pacientes_id'];
+            $data['Paciente']['fechaUltimaConsulta'] = date('Y-m-d');
+            
+            ClassRegistry::init('Paciente')->save($data);
+            
+        }
 }

@@ -42,3 +42,437 @@ Stack Trace:
 #3 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-05-28 00:21:07 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/html/devel/sigepa/app/Controller/TurnosController.php, line 42]
+2014-05-28 00:21:07 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /devel/sigepa/Turnos/index/
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/d...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/d...', 42, Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/d...', 42, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-23 23:14:16 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/es.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:14:25 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/es.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:16:25 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/es.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:16:30 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/es.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:17:04 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/ar.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:17:56 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/ar.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:18:03 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/ar.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:18:06 Error: [MissingControllerException] Controller class LangController could not be found.
+Exception Attributes: array (
+  'class' => 'LangController',
+  'plugin' => NULL,
+)
+Request URL: /devel/sigepa/lang/ar.js
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-23 23:28:18 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:28:22 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566098298
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:28:24 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566098299
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:28:24 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566098300
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:28:24 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566098301
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:32:58 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:33:05 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566377732
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:33:30 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:33:33 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566410607
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:33:35 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566410608
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:33:36 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566410609
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:33:36 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/null?_=1403566410610
+Stack Trace:
+#0 [internal function]: PacientesController->ficha('null')
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-23 23:39:14 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 22:43:21 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'EstudiosComplementariosPaciente.estudios_complementario_id' in 'where clause'
+Request URL: /devel/sigepa/EstudiosComplementarios/delete/391
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Estudio...', Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Estudio...', Array, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Estudio...', false)
+#4 /var/www/html/devel/sigepa/lib/Cake/Model/Model.php(2700): DboSource->read(Object(AppModel), Array)
+#5 /var/www/html/devel/sigepa/lib/Cake/Model/Model.php(2511): Model->find('all', Array)
+#6 /var/www/html/devel/sigepa/lib/Cake/Model/Model.php(2412): Model->_deleteLinks('391')
+#7 /var/www/html/devel/sigepa/app/Controller/EstudiosComplementariosController.php(108): Model->delete()
+#8 [internal function]: EstudiosComplementariosController->delete('391')
+#9 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EstudiosComplementariosController), Array)
+#10 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EstudiosComplementariosController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-25 22:45:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'EstudiosComplementariosPaciente.estudios_complementario_id' in 'where clause'
+Request URL: /devel/sigepa/EstudiosComplementarios/delete/391
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Estudio...', Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Estudio...', Array, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Estudio...', false)
+#4 /var/www/html/devel/sigepa/lib/Cake/Model/Model.php(2700): DboSource->read(Object(AppModel), Array)
+#5 /var/www/html/devel/sigepa/lib/Cake/Model/Model.php(2511): Model->find('all', Array)
+#6 /var/www/html/devel/sigepa/lib/Cake/Model/Model.php(2412): Model->_deleteLinks('391')
+#7 /var/www/html/devel/sigepa/app/Controller/EstudiosComplementariosController.php(108): Model->delete()
+#8 [internal function]: EstudiosComplementariosController->delete('391')
+#9 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EstudiosComplementariosController), Array)
+#10 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(EstudiosComplementariosController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-25 23:06:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/devel/sigepa/app/Controller/PatologiasController.php, line 58]
+2014-06-25 23:06:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /devel/sigepa/Patologias/add
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/d...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/d...', 58, Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/d...', 58, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-12 22:01:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/html/devel/sigepa/app/Controller/PatologiasController.php, line 58]
+2014-07-12 22:01:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /devel/sigepa/Patologias/add
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/d...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/d...', 58, Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/d...', 58, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-12 22:10:24 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => 'Acl',
+)
+Request URL: /devel/sigepa/acl/index
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-12 22:30:49 Error: [MissingComponentException] Component class MpdfComponent could not be found.
+Exception Attributes: array (
+  'class' => 'MpdfComponent',
+  'plugin' => false,
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Mpdf', Array)
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PacientesController))
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-12 22:32:15 Error: [MissingPluginException] Plugin Mpdf could not be found.
+Exception Attributes: array (
+  'plugin' => 'Mpdf',
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(367): CakePlugin::path('Mpdf')
+#1 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(228): App::pluginPath('Mpdf')
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'Mpdf')
+#3 [internal function]: App::load('MpdfComponent')
+#4 [internal function]: spl_autoload_call('MpdfComponent')
+#5 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(110): class_exists('MpdfComponent')
+#6 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Mpdf.Mpdf', Array)
+#7 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PacientesController))
+#8 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#9 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-12 22:33:50 Error: [MissingPluginException] Plugin Mpdf could not be found.
+Exception Attributes: array (
+  'plugin' => 'Mpdf',
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(367): CakePlugin::path('Mpdf')
+#1 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(228): App::pluginPath('Mpdf')
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'Mpdf')
+#3 [internal function]: App::load('MpdfComponent')
+#4 [internal function]: spl_autoload_call('MpdfComponent')
+#5 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(110): class_exists('MpdfComponent')
+#6 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Mpdf.Mpdf', Array)
+#7 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PacientesController))
+#8 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#9 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-12 22:33:54 Error: [MissingPluginException] Plugin Mpdf could not be found.
+Exception Attributes: array (
+  'plugin' => 'Mpdf',
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(367): CakePlugin::path('Mpdf')
+#1 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(228): App::pluginPath('Mpdf')
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'Mpdf')
+#3 [internal function]: App::load('MpdfComponent')
+#4 [internal function]: spl_autoload_call('MpdfComponent')
+#5 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(110): class_exists('MpdfComponent')
+#6 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Mpdf.Mpdf', Array)
+#7 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PacientesController))
+#8 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#9 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-12 22:34:42 Error: [MissingComponentException] Component class MpdfComponent could not be found.
+Exception Attributes: array (
+  'class' => 'MpdfComponent',
+  'plugin' => false,
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Mpdf', Array)
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PacientesController))
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-12 22:37:02 Error: [CakeException] Vendor class mPDF not found!
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/Controller/PacientesController.php(220): MpdfComponent->init()
+#1 [internal function]: PacientesController->testpdf()
+#2 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-12 22:37:30 Error: [CakeException] Vendor class mPDF not found!
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/Controller/PacientesController.php(220): MpdfComponent->init()
+#1 [internal function]: PacientesController->testpdf()
+#2 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-12 22:37:34 Error: [CakeException] Vendor class mPDF not found!
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/Controller/PacientesController.php(220): MpdfComponent->init()
+#1 [internal function]: PacientesController->testpdf()
+#2 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-12 23:03:19 Error: [MissingPluginException] Plugin Mpdf could not be found.
+Exception Attributes: array (
+  'plugin' => 'Mpdf',
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(367): CakePlugin::path('Mpdf')
+#1 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(228): App::pluginPath('Mpdf')
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(549): App::path('Controller/Comp...', 'Mpdf')
+#3 [internal function]: App::load('MpdfComponent')
+#4 [internal function]: spl_autoload_call('MpdfComponent')
+#5 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(110): class_exists('MpdfComponent')
+#6 /var/www/html/devel/sigepa/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Mpdf.Mpdf', Array)
+#7 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PacientesController))
+#8 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(183): Controller->constructClasses()
+#9 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-07-12 23:05:22 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/devel/sigepa/app/Vendor/mpdf/config_cp.php' (include_path='/var/www/html/devel/sigepa/lib:.:/usr/share/pear:/usr/share/php') in [/var/www/html/devel/sigepa/app/Vendor/mpdf/mpdf.php, line 39]
+2014-07-12 23:05:22 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/devel/sigepa/app/Vendor/mpdf/config_cp.php' (include_path='/var/www/html/devel/sigepa/lib:.:/usr/share/pear:/usr/share/php')
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/d...', 39)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/d...', 39, Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/d...', 39, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-12 23:05:30 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/devel/sigepa/app/Vendor/mpdf/config_cp.php' (include_path='/var/www/html/devel/sigepa/lib:.:/usr/share/pear:/usr/share/php') in [/var/www/html/devel/sigepa/app/Vendor/mpdf/mpdf.php, line 39]
+2014-07-12 23:05:30 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/var/www/html/devel/sigepa/app/Vendor/mpdf/config_cp.php' (include_path='/var/www/html/devel/sigepa/lib:.:/usr/share/pear:/usr/share/php')
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/html/d...', 39)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/html/d...', 39, Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/html/d...', 39, Array)
+#3 /var/www/html/devel/sigepa/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-13 00:13:44 Error: [MissingViewException] View file "/var/www/html/devel/sigepa/app/View/Pacientes/testpdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/devel/sigepa/app/View/Pacientes/testpdf.ctp',
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-13 00:14:06 Error: [MissingViewException] View file "/var/www/html/devel/sigepa/app/View/Pacientes/testpdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/devel/sigepa/app/View/Pacientes/testpdf.ctp',
+)
+Request URL: /devel/sigepa/Pacientes/testpdf
+Stack Trace:
+#0 /var/www/html/devel/sigepa/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

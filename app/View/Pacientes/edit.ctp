@@ -88,7 +88,10 @@
 		echo $this->Form->input('direccion');
 		echo $this->Form->input('telefonoFijo', array('label' => 'Telefono'));
 		echo $this->Form->input('telefonoMovil', array('label' => 'Celular'));
-//		echo $this->Form->input('fechaUltimaConsulta');
+		echo $this->Form->input('fechaUltimaConsulta', array(
+                    'type' => 'hidden',
+                    'value' => date('Y-m-d')
+                ));
 //		echo $this->Form->input('EstudiosComplementario');
 		echo $this->Form->input('ObrasSociale', array(
                     'data-placeholder' => 'Seleccione las obras sociales del paciente',

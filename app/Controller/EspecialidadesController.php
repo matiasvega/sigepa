@@ -49,7 +49,7 @@ class EspecialidadesController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Especialidade->create();
 			if ($this->Especialidade->save($this->request->data)) {
-				$this->Session->setFlash(__('The especialidade has been saved'));
+				$this->Session->setFlash(__('Los datos se guardaron correctamente'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The especialidade could not be saved. Please, try again.'));
@@ -70,7 +70,7 @@ class EspecialidadesController extends AppController {
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Especialidade->save($this->request->data)) {
-				$this->Session->setFlash(__('The especialidade has been saved'));
+				$this->Session->setFlash(__('Los datos se guardaron correctamente'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The especialidade could not be saved. Please, try again.'));
@@ -95,10 +95,10 @@ class EspecialidadesController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Especialidade->delete()) {
-			$this->Session->setFlash(__('Especialidade deleted'));
+			$this->Session->setFlash(__('Datos eliminados'), 'flash_ok');
 			return $this->redirect(array('action' => 'index'));
 		}
-		$this->Session->setFlash(__('Especialidade was not deleted'));
+		$this->Session->setFlash(__('Ups! No se pudieron eliminar los datos!'), 'flash_error');
 		return $this->redirect(array('action' => 'index'));
 	}
 }

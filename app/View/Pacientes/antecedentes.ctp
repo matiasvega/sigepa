@@ -50,6 +50,11 @@
                                                                 'value' => $idPaciente,
                                                                 )
                                         );
+                echo $this->Form->input('fechaUltimaConsulta', array(
+                                                                'type' => 'hidden',
+                                                                'value' => date('Y-m-d'),
+                                                                )
+                                        );
                 
                 echo $this->Form->button('Guardar', array(   
                                             'type' => 'submit',

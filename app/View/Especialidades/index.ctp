@@ -1,3 +1,6 @@
+<?php 
+    $linkLocaleDataTable = $this->Html->url('/de_ES.txt', true);        
+?>
 <script type="text/javascript">
         jQuery(document).ready(function() { 
             
@@ -12,7 +15,7 @@
                       "sPaginationType": "full_numbers",
                       "bJQueryUI": true,
                       "oLanguage": {
-                                    "sUrl": "http://localhost/devel/sigepa/de_ES.txt"
+                                    "sUrl": <?php echo sprintf("'%s'", $linkLocaleDataTable); ?> 
                                    }
                   });                
                                       
@@ -33,9 +36,7 @@
                         left: '-201px'
                     }, 400);
 
-                });
-                
-                
+                });                                
                 
             });      
                     
@@ -63,9 +64,13 @@
 		<td><?php echo h($especialidade['Especialidade']['created']); ?>&nbsp;</td>
 		<td><?php echo h($especialidade['Especialidade']['modified']); ?>&nbsp;</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $especialidade['Especialidade']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $especialidade['Especialidade']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $especialidade['Especialidade']['id']), null, __('Are you sure you want to delete # %s?', $especialidade['Especialidade']['id'])); ?>
+			<?php // echo $this->Html->link(__('View'), array('action' => 'view', $especialidade['Especialidade']['id'])); ?>                    			
+                    
+                        <?php echo $this->Html->link($this->Html->image('edit.png', array('alt' => 'Editar', 'title' => 'Editar')), array('action' => 'edit', $especialidade['Especialidade']['id']), array('escape' => false)); ?>
+                            
+                        <?php echo $this->Form->postLink($this->Html->image('delete.png', array('alt' => 'Eliminar', 'title' => 'Eliminar')), array('action' => 'delete', $especialidade['Especialidade']['id']), array('escape' => false), __('Confirma que desea eliminar los datos de la especialidad %s?', $especialidade['Especialidade']['nombre'])); ?>
+                    
+                    
 		</td>
 	</tr>
 <?php endforeach; ?>
@@ -80,9 +85,9 @@
 	?>	</p>
 	<div class="paging">
 	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
+//		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
+//		echo $this->Paginator->numbers(array('separator' => ''));
+//		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>-->
 </div>

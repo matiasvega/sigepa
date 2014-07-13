@@ -13,7 +13,7 @@ class PacientesController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator', 'RequestHandler');
+	public $components = array('Paginator', 'RequestHandler', 'Mpdf');
         
         public $cacheAction = array(
 //            'add' => 48000,
@@ -216,6 +216,24 @@ class PacientesController extends AppController {
 		return $this->redirect(array('action' => 'index'));
 	}
         
-                
+        public function testpdf() { 
+            $this->layout = 'ajax';
+            // initializing mPDF
+            
+            $this->Mpdf->init();
+            
+            // setting filename of output pdf file
+            $this->Mpdf->setFilename('file.pdf'); 
+
+            // setting output to I, D, F, S
+            $this->Mpdf->setOutput('I');
+
+            // you can call any mPDF method via component, for example:
+//            $this->Mpdf->SetWatermarkText("Draft"); 
+            $this->Mpdf->Bookmark('Start of the document');
+            $this->Mpdf->WriteHTML('<p>Hallo World</p> <div> <b> xxxxxxxxxxxxxx </b> </div>');
+            
+
+        }               
         
 }

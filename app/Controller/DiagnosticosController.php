@@ -64,7 +64,7 @@ class DiagnosticosController extends AppController {
 		if ($this->request->is('post')) {
 			$this->Diagnostico->create();
 			if ($this->Diagnostico->save($this->request->data)) {
-				$this->Session->setFlash(__('The diagnostico has been saved'));
+                                $this->Session->setFlash(__('Datos guardados correctamente.'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The diagnostico could not be saved. Please, try again.'));
@@ -88,7 +88,7 @@ class DiagnosticosController extends AppController {
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Diagnostico->save($this->request->data)) {
-				$this->Session->setFlash(__('The diagnostico has been saved'));
+				$this->Session->setFlash(__('Datos guardados correctamente.'), 'flash_ok');
 //				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The diagnostico could not be saved. Please, try again.'));

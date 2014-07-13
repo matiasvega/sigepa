@@ -49,7 +49,7 @@
 	<table cellpadding="0" cellspacing="0" class="tabla">
             <thead>
                 <tr>
-                    <th>Id</th>
+                    <!--<th>Id</th>-->
                     <th>Nombre</th>
                     <th>Telefono</th>
                     <!--<th>Fecha Alta</th>-->
@@ -61,7 +61,7 @@
                 <!--nocache-->
                 <?php foreach ($obrasSociales as $obrasSociale): ?>
                 <tr>
-                        <td><?php echo h($obrasSociale['ObrasSociale']['id']); ?>&nbsp;</td>
+                        <!--<td><?php // echo h($obrasSociale['ObrasSociale']['id']); ?>&nbsp;</td>-->
                         <td><?php echo h($obrasSociale['ObrasSociale']['nombre']); ?>&nbsp;</td>
                         <td><?php echo h($obrasSociale['ObrasSociale']['telefono']); ?>&nbsp;</td>
                         <!--<td><?php // echo h($obrasSociale['ObrasSociale']['created']); ?>&nbsp;</td>-->
@@ -71,6 +71,7 @@
                                 <?php echo $this->Html->link($this->Html->image('edit.png', array('alt' => 'Editar', 'title' => 'Editar')), array('action' => 'edit', $obrasSociale['ObrasSociale']['id']), array('escape' => false)); ?>
                             
                                 <?php echo $this->Form->postLink($this->Html->image('delete.png', array('alt' => 'Eliminar', 'title' => 'Eliminar')), array('action' => 'delete', $obrasSociale['ObrasSociale']['id']), array('escape' => false), __('Confirma que desea eliminar los datos de la obra social %s?', $obrasSociale['ObrasSociale']['nombre'])); ?>
+                            
                         </td>
                 </tr>
                 <?php endforeach; ?>

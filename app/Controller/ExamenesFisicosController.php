@@ -117,5 +117,6 @@ class ExamenesFisicosController extends AppController {
 		}
 		$this->Session->setFlash(__('Examenes fisico was not deleted'));
 		return $this->redirect(array('action' => 'index'));
-	}
+	}                
+        
 }

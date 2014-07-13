@@ -34,8 +34,7 @@
 //                            console.log(textStatus);
                             alertPnotify("error", "ERROR", textStatus);
                         }                         
-                    });
-                  
+                    });                 
                     return false;                     
            }); 
                       
@@ -74,7 +73,9 @@
 		<!--<legend><?php // echo __('Edit Estudios Complementarios Paciente'); ?></legend>-->
 	<?php
 		echo $this->Form->input('id');
-//		echo $this->Form->input('pacientes_id');
+		echo $this->Form->input('pacientes_id', array(
+                        'type' => 'hidden',
+                ));
 //		echo $this->Form->input('estudios_complementarios_id');
                 echo $this->Form->input('fechaRealizado', array(
                     'id' => 'fechaRealizado',

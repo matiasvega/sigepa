@@ -1,3 +1,6 @@
+<?php 
+    $linkLocaleDataTable = $this->Html->url('/de_ES.txt', true);        
+?>
 <script type="text/javascript">
         jQuery(document).ready(function() { 
             
@@ -12,7 +15,7 @@
                       "sPaginationType": "full_numbers",
                       "bJQueryUI": true,
                       "oLanguage": {
-                                    "sUrl": "http://localhost/devel/sigepa/de_ES.txt"
+                                    "sUrl": <?php echo sprintf("'%s'", $linkLocaleDataTable); ?> 
                                    }
                   });                
                                       
@@ -33,14 +36,11 @@
                         left: '-201px'
                     }, 400);
 
-                });
-                
-                
+                });                                
                 
             });      
                     
 </script>
-
 
 <div class="medicamentosIndex customIndex">
 	<h2><?php echo __('Medicamentos'); ?></h2>
@@ -75,7 +75,7 @@
 	<?php foreach ($medicamentos as $medicamento): ?>
 	<tr>
 		<!--<td><?php // echo h($medicamento['Medicamento']['id']); ?>&nbsp;</td>-->
-		<td><?php echo h($medicamento['Medicamento']['nombre_comercial']); ?>&nbsp;</td>
+            <td><?php echo utf8_encode(h($medicamento['Medicamento']['nombre_comercial'])); ?>&nbsp;</td>
 		<!--<td><?php // echo h($medicamento['Medicamento']['descripcion']); ?>&nbsp;</td>-->
 <!--		<td><?php // echo h($medicamento['Medicamento']['farmacologia']); ?>&nbsp;</td>
 		<td><?php // echo h($medicamento['Medicamento']['farmacodinamia']); ?>&nbsp;</td>
@@ -84,11 +84,11 @@
 		<td><?php // echo h($medicamento['Medicamento']['indicaciones']); ?>&nbsp;</td>
 		<td><?php // echo h($medicamento['Medicamento']['dosificacion']); ?>&nbsp;</td>
 		<td><?php // echo h($medicamento['Medicamento']['sobredosificacion']); ?>&nbsp;</td>-->
-		<td><?php echo h($medicamento['Medicamento']['presentacion']); ?>&nbsp;</td>
+		<td><?php echo utf8_encode(h($medicamento['Medicamento']['presentacion'])); ?>&nbsp;</td>
 <!--		<td><?php // echo h($medicamento['Medicamento']['conservacion']); ?>&nbsp;</td>
 		<td><?php // echo h($medicamento['Medicamento']['advertencias']); ?>&nbsp;</td>
 		<td><?php // echo h($medicamento['Medicamento']['embarazo_lactancia']); ?>&nbsp;</td>-->
-		<td><?php echo h($medicamento['Medicamento']['accion_terapeutica']); ?>&nbsp;</td>
+		<td><?php echo utf8_encode(h($medicamento['Medicamento']['accion_terapeutica'])); ?>&nbsp;</td>
 
                 
 <!--		<td>
@@ -110,7 +110,7 @@
                 
                 
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $medicamento['Medicamento']['id'])); ?>
+			<?php // echo $this->Html->link(__('View'), array('action' => 'view', $medicamento['Medicamento']['id'])); ?>
 			<?php // echo $this->Html->link(__('Edit'), array('action' => 'edit', $medicamento['Medicamento']['id'])); ?>
 			<?php // echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $medicamento['Medicamento']['id']), null, __('Are you sure you want to delete # %s?', $medicamento['Medicamento']['id'])); ?>
 		</td>
@@ -119,21 +119,6 @@
         </tbody>
 	</table>
         
-        
-        
-<!--	<p>
-	<?php
-//	echo $this->Paginator->counter(array(
-//	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
-//	));
-	?>	</p>
-	<div class="paging">
-	<?php
-//		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-//		echo $this->Paginator->numbers(array('separator' => ''));
-//		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
-	?>
-	</div>-->
 </div>
 
 
@@ -141,8 +126,9 @@
     <div id="panelContent">
         <div class="acciones">
 	<ul>
-
-            
+        <li><?php echo $this->Html->link(__('Listado Pacientes'), array('controller' => 'pacientes', 'action' => 'index')); ?> </li>
+        <li><?php echo $this->Html->link(__('Registrar Paciente'), array('controller' => 'pacientes', 'action' => 'add')); ?> </li>  
+        <li><?php echo $this->Html->link(__('Calendario de Turnos'), array('controller' => 'turnos', 'action' => 'index')); ?> </li>          
 	</ul>        
         </div>
     </div>

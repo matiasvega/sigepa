@@ -1,3 +1,6 @@
+<?php 
+    $linkLocaleDataTable = $this->Html->url('/de_ES.txt', true);        
+?>
 <script type="text/javascript">
         jQuery(document).ready(function() { 
             
@@ -12,7 +15,7 @@
                       "sPaginationType": "full_numbers",
                       "bJQueryUI": true,
                       "oLanguage": {
-                                    "sUrl": "http://localhost/devel/sigepa/de_ES.txt"
+                                    "sUrl": <?php echo sprintf("'%s'", $linkLocaleDataTable); ?> 
                                    }
                   });                
                                       
@@ -33,9 +36,7 @@
                         left: '-201px'
                     }, 400);
 
-                });
-                
-                
+                });                                
                 
             });      
                     
@@ -46,7 +47,7 @@
 	<table cellpadding="0" cellspacing="0" class="tabla">
             <thead>
                 <tr>
-                                <th>Id</th>
+                                <!--<th>Id</th>-->
                                 <th>Nombre</th>
                                 <th>Descripcion</th>
                                 <th>Created</th>
@@ -57,8 +58,8 @@
             <tbody>
 	<?php foreach ($patologias as $patologia): ?>
 	<tr>
-		<td><?php echo h($patologia['Patologia']['id']); ?>&nbsp;</td>
-		<td><?php echo h($patologia['Patologia']['nombre']); ?>&nbsp;</td>
+		<!--<td><?php // echo h($patologia['Patologia']['id']); ?>&nbsp;</td>-->
+            <td><?php echo h(utf8_encode($patologia['Patologia']['nombre'])); ?>&nbsp;</td>
 		<td><?php echo h($patologia['Patologia']['descripcion']); ?>&nbsp;</td>
 		<td><?php echo h($patologia['Patologia']['created']); ?>&nbsp;</td>
 		<td><?php echo h($patologia['Patologia']['modified']); ?>&nbsp;</td>

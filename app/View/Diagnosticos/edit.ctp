@@ -34,8 +34,7 @@
 //                            console.log(textStatus);
                             alertPnotify("error", "ERROR", textStatus);
                         }                         
-                    });
-                  
+                    });                  
                     return false;                     
            }); 
            $('select').chosen();
@@ -60,7 +59,9 @@
 		echo $this->Form->input('id');
 //		echo $this->Form->input('fecha');
 //		echo $this->Form->input('diagnostico_presuntivo');
-//		echo $this->Form->input('pacientes_id');
+		echo $this->Form->input('pacientes_id', array(
+                    'type' => 'hidden'
+                ));
 		echo $this->Form->input('diagnostico_definitivo');
                 
                 echo $this->Form->input('patologias_id', array(
