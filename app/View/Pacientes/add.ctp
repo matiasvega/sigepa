@@ -64,7 +64,7 @@
 	<?php		
                 
                 echo $this->Form->input('dni', array(
-                                                                'required' => true,
+                                                                'required' => false,
                                                                 'type' => 'text',
                                                             )
                                                 );

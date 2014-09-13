@@ -87,7 +87,7 @@
         <thead>
             <tr>
                 <!--<th> id </th>-->
-                <th> DNI </th>
+                <!--<th> DNI </th>-->
                 <th> Nombre </th>
                 <th> Apellido </th>
                 <th> Sexo </th>
@@ -111,7 +111,7 @@
         ?>
             <tr>                    
                     <!--<td><?php // echo h($paciente['Paciente']['id']); ?>&nbsp;</td>-->
-                    <td><?php echo h($paciente['Paciente']['dni']); ?>&nbsp;</td>
+                    <!--<td><?php // echo h($paciente['Paciente']['dni']); ?>&nbsp;</td>-->
                     <td><?php echo h($paciente['Paciente']['nombre']); ?>&nbsp;</td>
                     <td><?php echo h($paciente['Paciente']['apellido']); ?>&nbsp;</td>
                     <td><?php echo h(getSexo($paciente['Paciente']['sexo'])); ?>&nbsp;</td>

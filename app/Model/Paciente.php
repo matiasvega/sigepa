@@ -21,9 +21,9 @@ class Paciente extends AppModel {
 //        );
 
         public $validate = array(
-                'dni' => 'numeric',
-                'nombre' => 'alphaNumeric',
-                'apellido' => 'alphaNumeric',
+//                'dni' => 'numeric',
+                'nombre' => 'notEmpty',
+                'apellido' => 'notEmpty',
                 'telefonoFijo' => 'alphaNumeric',
                 'sexo' => 'notEmpty',
                 'fechaNacimiento'  => 'notEmpty',

@@ -19,7 +19,8 @@ class UsersController extends AppController {
 //            'login'  => 48000,
 //            'agendaDiaria'  => 48000,
         );
-
+      
+        
 /**
  * index method
  *

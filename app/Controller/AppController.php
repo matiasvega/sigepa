@@ -58,6 +58,10 @@ class AppController extends Controller {
 	);
         
         public function beforeFilter() {
+//            $this->Auth->allow('index', 'edit');
+        }
+        
+//        public function beforeFilter() {
 ////            dd('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy');
 //            $actions = array();
 //            $fullActions = $this->AclReflector->get_all_actions();
@@ -85,6 +89,6 @@ class AppController extends Controller {
 //            dd($granActions);
 //            $this->Session->write('Auth.User.grantActions', $granActions);
 //            dd('uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu');
-        }
+//        }
                         
 }
