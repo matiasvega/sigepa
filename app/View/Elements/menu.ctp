@@ -152,6 +152,11 @@
                         'action' => 'index',
                         'nombre' => 'Tratamientos',
                     ),
+                    array(
+                        'controller' => 'Profesionales',
+                        'action' => 'index',
+                        'nombre' => 'Profesionales',
+                    ),
                 ),
             ),
             array(
@@ -177,6 +182,11 @@
                         'controller' => 'admin',
                         'action' => 'acl',
                         'nombre' => 'Privilegios',
+                    ),
+                    array(
+                        'controller' => 'backups',
+                        'action' => 'index',
+                        'nombre' => 'Backups',
                     ),
                 ),
             ),

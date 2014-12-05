@@ -3,7 +3,7 @@
 $ficha = $this->Html->url(array(
          "controller" => "pacientes",
          "action" => "ficha",
-         $events[0]['idPaciente'],
+//         $events[0]['idPaciente'],
      ), true);
 
 /*

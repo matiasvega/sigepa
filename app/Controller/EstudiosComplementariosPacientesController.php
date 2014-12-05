@@ -133,11 +133,13 @@ class EstudiosComplementariosPacientesController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->EstudiosComplementariosPaciente->delete()) {
-			$this->Session->setFlash(__('Estudios complementarios paciente deleted'));
-			return $this->redirect(array('action' => 'index'));
-		}
-		$this->Session->setFlash(__('Estudios complementarios paciente was not deleted'));
-		return $this->redirect(array('action' => 'index'));
+//                        $this->Session->setFlash(__('Los datos fueron eliminados'), 'flash_ok');
+//			return $this->redirect(array('action' => 'index'));
+		} else {
+                        $this->Session->setFlash(__('Error al intentar eliminar los datos, comuniquese con el administrador del sistema'), 'flash_error');    
+                }
+		$this->layout = 'ajax';
+		//return $this->redirect(array('action' => 'index'));
 	}
         
         public function download($file, $estudio, $id) {

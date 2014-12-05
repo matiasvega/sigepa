@@ -37,22 +37,24 @@
     $events = array();
     if (!empty($turnos)) {        
         foreach ($turnos as $k => $turno) {
-    //        dd($turno);
+//            dd($turno);
             $events[$k]['title'] = sprintf('%s, %s', $turno['Paciente']['nombre'], $turno['Paciente']['apellido']);
             $events[$k]['start'] = $turno['Turno']['fechaHora'];
             $events[$k]['allDay'] = false;
+            $events[$k]['idTurno'] = $turno['Turno']['id'];
         }
     }
-    //    dd($events);
-    //    dd(json_encode($events));
+//        dd($events);
+//        dd(json_encode($events));
 
         echo $this->element('calendar', array('events' => $events)); 
     
 ?>
 <div id="add-event"></div>
+<div id="view-event"></div>
 <style>
     #add-event {
-        clear: both;            
+        clear: both;
     }
     
 /*    #filtroTurnos {

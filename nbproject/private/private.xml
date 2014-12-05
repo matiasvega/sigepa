@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/devel/sigepa/app/Model/ObrasSociale.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/webroot/css/sigepa.css</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/PacientesController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Elements/menu.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Backups/add.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/index.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/TurnosController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/EstudiosComplementariosPacientes/delete.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Elements/stackTurnos.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/Config/bootstrap.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/add.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/EstudiosComplementariosPacientes/index_paciente.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/BackupsController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Pacientes/ficha.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Elements/calendar.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Backups/index.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/EstudiosComplementariosPacientesController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Elements/toolbar.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/edit.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/EstudiosComplementariosPacientes/add.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/EstudiosComplementariosPacientes/edit.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/agenda_diaria.ctp</file>
+        </group>
+    </open-files>
 </project-private>

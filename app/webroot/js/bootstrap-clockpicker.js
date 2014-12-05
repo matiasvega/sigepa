@@ -373,8 +373,10 @@
 
 		// Get the time
 		var value = ((this.input.prop('value') || this.options['default'] || '') + '').split(':');
+                console.log("x " + value + " x");
 		if (value[0] === 'now') {
 			var now = new Date(+ new Date() + this.options.fromnow);
+                        console.log("x " + now + " x");
 			value = [
 				now.getHours(),
 				now.getMinutes()

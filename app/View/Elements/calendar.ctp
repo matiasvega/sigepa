@@ -5,6 +5,11 @@ $addTurno = $this->Html->url(array(
          "action" => "add",
      ), true);
 
+$editTurno = $this->Html->url(array(
+         "controller" => "turnos",
+         "action" => "edit",
+     ), true);
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -39,6 +44,9 @@ $addTurno = $this->Html->url(array(
                         monthAbbrevs: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dec'],
                         dayNames: ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'],
                         dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab'],
+                        //editable: false,
+                        disableDragging: true,
+                        disableResizing: true,
                         buttonText: {
                                 prev: "<span class='fc-text-arrow'>&lsaquo;</span>",
                                 next: "<span class='fc-text-arrow'>&rsaquo;</span>",
@@ -69,13 +77,7 @@ $addTurno = $this->Html->url(array(
 //                            console.log('Especialidad: ' + $('#especialidad_id').val());
 //                            console.log('Profesional: ' + $('#profesional_id').val());                            
                             var today = new Date();
-                            
-                            console.log(allDay);
-                            console.log(date);
-                            console.log(today);
-                            console.log(date.toDateString());                            
-                            console.log(today.toDateString());
-                            
+                                                        
                             if (date >= today) {
                                     $.ajax({
                                         type: 'GET',
@@ -116,20 +118,61 @@ $addTurno = $this->Html->url(array(
                        },
                        eventClick: function(calEvent, jsEvent, view) {
                             console.log(calEvent);
-                            alert('Event: ' + calEvent.title);
-                            alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
-                            alert('View: ' + view.name);
-
+                            console.log(calEvent.idTurno);
+//                            alert('Event: ' + calEvent.title);
+//                            alert('Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY);
+//                            alert('View: ' + view.name);
+                            
                             // change the border color just for fun
                             $(this).css('border-color', 'red');
+//                            alert(<?php echo sprintf("'%s'", $editTurno); ?>);
+                            
+                            $.ajax({
+                                        type: 'GET',
+//                                        data: date,
+                                        async:true,
+                                        url: <?php echo sprintf("'%s'", $editTurno); ?> + '/' + calEvent.idTurno,
+                                        cache:false,                                        
+//                                        beforeSend: function() {
+//                                            $('#preload').html('%s');
+//                                        }
+                                      })
+                                        .done(function(data) {
+//                                            $('.preload').remove();
+                                            $("#add-event").html(data);                                            
+                                            $("#add-event").dialog({
+                                                modal: true,
+                                                width: 600,
+                                                height: 400,
+                                                draggable: true,
+                                                resizable: false,
+                                                title: 'Turno de ' + calEvent.title,
+                                                show: {
+                                                        effect: "blind",
+                                                        duration: 1000,
+                                                      },
+                                                hide: {
+                                                  effect: "fade",
+                                                  duration: 500,
+                                                },
+                                            });
+                                    });
+                            
+                            
+                            
+                            
+                            
+                            
 
                         },
                        eventDragStop: function(event, jsEvent, ui, view) { 
-                        alert('xxxxxxxxxxxxxxxxxx');
+                        console.log('xxxxxxxxxxxxxxxxxx');
                         console.log(event);
-                        console.log(event.start);
+//                        console.log(event.start);
                         console.log(event._start);
 //                        console.log(jsEvent);
+//                        console.log(ui);
+//                        console.log(view);
                        },
                        events: <?php echo json_encode($events); ?>,
 		});

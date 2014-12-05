@@ -1,15 +1,26 @@
-<?php 
+<?php
+
     $linkLocaleDataTable = $this->Html->url('/de_ES.txt', true);    
+
+    $indexEstudios = $this->Html->url(array(
+         "controller" => "estudios_complementarios_pacientes",
+         "action" => "indexPaciente",
+     ), true);
 
     $linkCargarResultado = $this->Html->url(array(
          "controller" => "estudios_complementarios_pacientes",
          "action" => "edit",
      ), true);
     
+    $linkDeleteEstudio = $this->Html->url(array(
+         "controller" => "estudios_complementarios_pacientes",
+         "action" => "delete",
+     ), true);
+    
 ?>
 <script type="text/javascript">
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('#estudiosComplementariosPacientesIndex').dataTable({
             "bPaginate": true,
             "bLengthChange": false,
@@ -17,46 +28,64 @@
             "bSort": true,
             "bInfo": true,
             "bAutoWidth": false,
-            "aaSorting": [[ 0, "asc" ]],
+            "aaSorting": [[0, "asc"]],
             "bAutoWidth": false,
-            "aoColumns": [
-                { "sWidth": "15%" },
-                { "sWidth": "8%" },
-                { "sWidth": "8%"},
-                { "sWidth": "15%"},
-                { "sWidth": "7%"},
-                { "sWidth": "5%"},
-            ],            
+                    "aoColumns": [
+                        {"sWidth": "15%"},
+                        {"sWidth": "8%"},
+                        {"sWidth": "8%"},
+                        {"sWidth": "15%"},
+                        {"sWidth": "7%"},
+                        {"sWidth": "5%"},
+                    ],
             "sPaginationType": "full_numbers",
-            "bJQueryUI": true,            
+            "bJQueryUI": true,
             "oLanguage": {
-                                "sUrl": <?php echo sprintf("'%s'", $linkLocaleDataTable); ?> 
-                                 }
+                "sUrl": <?php echo sprintf("'%s'", $linkLocaleDataTable); ?>
+            }
         });
-        
-        $('.cargar_resultado').bind('click', function() {
+
+        $('.cargar_resultado').bind('click', function () {
 //            console.log($(this).prop('id'));
             $('#editEstudio').load(<?php echo sprintf("'%s'", $linkCargarResultado); ?> + '/' + $(this).prop('id') + '/' + <?php echo $idPaciente; ?>);
             $('#editEstudio').dialog({
-                                        modal: true,
-                                        width: 790,
-                                        height: 440,
-                                        draggable: true,
-                                        resizable: true,
-                                        title: 'Cargar resultados de estudio',
-                                        show: {
-                                                effect: "blind",
-                                                duration: 1000,
-                                              },
-                                        hide: {
-                                          effect: "fade",
-                                          duration: 500,
-                                        }
-                                    });
-            
+                modal: true,
+                width: 790,
+                height: 440,
+                draggable: true,
+                resizable: true,
+                title: 'Cargar resultados de estudio',
+                show: {
+                    effect: "blind",
+                    duration: 1000,
+                },
+                hide: {
+                    effect: "fade",
+                    duration: 500,
+                }
+            });
+
         });
         
-        
+        $('.eliminar_estudio').bind('click', function() {
+//            console.log('xxxx');
+//            console.log(<?php // echo sprintf("'%s/'", $linkDeleteEstudio); ?> + $(this).prop('id'));
+            if (confirm('Confirma que desea eliminar el estudio?')) {
+                $.ajax({ 
+                    type: 'POST', 
+                    url: <?php echo sprintf("'%s/'", $linkDeleteEstudio); ?> + $(this).prop('id'),                
+                    success: function(data,textStatus,xhr){ 
+                        alertPnotify("success", "OK","Los datos fueron eliminados");
+                        $( "#estudiosSolicitados" ).load(<?php echo sprintf("'%s/%s'", $indexEstudios, $idPaciente); ?>);
+                    }, 
+                    error: function(xhr,textStatus,error){ 
+                        alert(textStatus); 
+                    }
+                });
+            }
+        });
+
+
     });
 
 </script>
@@ -64,37 +93,37 @@
 <?php // d($estudiosComplementariosPacientes); ?>
 
 <div class="estudiosComplementariosPacientesIndex">
-	<h2><?php // echo __('Estudios Complementarios Pacientes'); ?></h2>
-	<table cellpadding="0" cellspacing="0" id="estudiosComplementariosPacientesIndex">
-            <thead>
-                <tr>
-                    <!--<th>id</th>-->
-                    <!--<th>pacientes_id</th>-->
-                    <th> Estudio </th>
-                    <th> Solicitado </th>
-                    <th> Realizado </th>
-                    <th> Resultado </th>
-                    <th> Adjunto </th>
-                    <th> &nbsp; </th>
+    <h2><?php // echo __('Estudios Complementarios Pacientes'); ?></h2>
+    <table cellpadding="0" cellspacing="0" id="estudiosComplementariosPacientesIndex">
+        <thead>
+            <tr>
+                <!--<th>id</th>-->
+                <!--<th>pacientes_id</th>-->
+                <th> Estudio </th>
+                <th> Solicitado </th>
+                <th> Realizado </th>
+                <th> Resultado </th>
+                <th> Adjunto </th>
+                <th> &nbsp; </th>
 <!--                    <th>created</th>
-                    <th>modified</th>-->
-                    <!--<th class="actions"><?php // echo __('Actions'); ?></th>-->
-                </tr>
-            </thead>
-            <tbody>
-                <!--nocache-->
+                <th>modified</th>-->
+                <!--<th class="actions"><?php // echo __('Actions'); ?></th>-->
+            </tr>
+        </thead>
+        <tbody>
+            <!--nocache-->
 	<?php foreach ($estudiosComplementariosPacientes as $estudiosComplementariosPaciente): ?>
-	<tr>
-		<!--<td><?php // echo h($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id']); ?>&nbsp;</td>-->
-<!--		<td>
+            <tr>
+                    <!--<td><?php // echo h($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id']); ?>&nbsp;</td>-->
+    <!--		<td>
 			<?php // echo $this->Html->link($estudiosComplementariosPaciente['Paciente']['id'], array('controller' => 'pacientes', 'action' => 'view', $estudiosComplementariosPaciente['Paciente']['id'])); ?>
-		</td>-->
-		<td>
+                    </td>-->
+                <td>
 			<?php echo $estudiosComplementariosPaciente['EstudiosComplementario']['nombre']; ?>
-		</td>
+                </td>
                 <td>
 			<?php echo fecha($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['fechaSolicitado']); ?>
-		</td>
+                </td>
                 <td>
 			<?php
                             if (!empty($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['fechaRealizado'])) {
@@ -103,10 +132,10 @@
                                 echo '&nbsp;';
                             }                                       
                         ?>
-		</td>
+                </td>
                 <td>
 			<?php echo $estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['resultado']; ?>
-		</td>
+                </td>
                 <td>
 			<?php 
 
@@ -121,11 +150,11 @@
                                     
                                 }
                         ?>
-                    
-		</td>                
+
+                </td>                
 <!--		<td><?php // echo h($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['created']); ?>&nbsp;</td>
-		<td><?php // echo h($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['modified']); ?>&nbsp;</td>-->
-		<td class="actions">
+                <td><?php // echo h($estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['modified']); ?>&nbsp;</td>-->
+                <td class="actions">
 			<?php 
                                                         
                             echo $this->Html->image("add_result.png", array(
@@ -133,49 +162,50 @@
                                     'class' => 'cargar_resultado',
                                     'alt' => 'Cargar resultado de estudio',
                                     'title' => 'Cargar resultado de estudio',
-                                ));
-                            
-                            
-                                    
-                                    
-                            
+                                ));                                                                                                                        
+                            echo $this->Html->image("delete.png", array(
+                                    'id' => $estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id'], 
+                                    'class' => 'eliminar_estudio',
+                                    'alt' => 'Eliminar estudio',
+                                    'title' => 'Eliminar estudio',
+                                )); 
                             
                         ?>
 			<?php // echo $this->Html->link(__('Edit'), array('action' => 'edit', $estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id'])); ?>
-			<?php // echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id']), null, __('Are you sure you want to delete # %s?', $estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id'])); ?>
-		</td>
-	</tr>
+			<?php // echo $this->Form->postLink($this->Html->image('delete.png', array('alt' => 'Eliminar', 'title' => 'Eliminar')), array('action' => 'delete', $estudiosComplementariosPaciente['EstudiosComplementariosPaciente']['id']), array('escape' => false), __('Confirma que desea eliminar el estudio: %s?', $estudiosComplementariosPaciente['EstudiosComplementario']['nombre'])); ?>
+                </td>
+            </tr>
 <?php endforeach; ?>
-        <!--/nocache-->
+            <!--/nocache-->
         </tbody>
-	</table>
-        
-        
+    </table>
+
+
 <!--	<p>
 	<?php
 //	echo $this->Paginator->counter(array(
 //	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
 //	));
 	?>	</p>
-	<div class="paging">
+<div class="paging">
 	<?php
 //		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
 //		echo $this->Paginator->numbers(array('separator' => ''));
 //		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
-	</div>-->
+</div>-->
 </div>
 
 
 <!--<div class="actions">
-	<h3><?php // echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php // echo $this->Html->link(__('New Estudios Complementarios Paciente'), array('action' => 'add')); ?></li>
-		<li><?php // echo $this->Html->link(__('List Pacientes'), array('controller' => 'pacientes', 'action' => 'index')); ?> </li>
-		<li><?php // echo $this->Html->link(__('New Pacientes'), array('controller' => 'pacientes', 'action' => 'add')); ?> </li>
-		<li><?php // echo $this->Html->link(__('List Estudios Complementarios'), array('controller' => 'estudios_complementarios', 'action' => 'index')); ?> </li>
-		<li><?php // echo $this->Html->link(__('New Estudios Complementarios'), array('controller' => 'estudios_complementarios', 'action' => 'add')); ?> </li>
-	</ul>
+        <h3><?php // echo __('Actions'); ?></h3>
+        <ul>
+                <li><?php // echo $this->Html->link(__('New Estudios Complementarios Paciente'), array('action' => 'add')); ?></li>
+                <li><?php // echo $this->Html->link(__('List Pacientes'), array('controller' => 'pacientes', 'action' => 'index')); ?> </li>
+                <li><?php // echo $this->Html->link(__('New Pacientes'), array('controller' => 'pacientes', 'action' => 'add')); ?> </li>
+                <li><?php // echo $this->Html->link(__('List Estudios Complementarios'), array('controller' => 'estudios_complementarios', 'action' => 'index')); ?> </li>
+                <li><?php // echo $this->Html->link(__('New Estudios Complementarios'), array('controller' => 'estudios_complementarios', 'action' => 'add')); ?> </li>
+        </ul>
 </div>-->
 
 
@@ -187,7 +217,7 @@
         font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
         width: 50%;
     }
-    
+
     .ui-buttonset .ui-button {
         margin-left: 0;
         margin-right: -.1em;

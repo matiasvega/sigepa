@@ -76,8 +76,8 @@ class TurnosController extends AppController {
 //                        d($mes);
 //                        d($anio);
 //                        d($this->request->data['Turno']['hora']);
-                        $fechaHora = new DateTime(sprintf("%s-%s-%s %s:00", $anio, $mes, $dia, 
-                                $this->request->data['Turno']['hora']));
+                        $fechaHora = new DateTime(sprintf("%s-%s-%s %s:00", $anio, $mes+1, $dia, 
+                        $this->request->data['Turno']['hora']));
                         d($fechaHora);
                         d($fechaHora->date);
                         $data['Turno']['fechaHora'] = $fechaHora->date;
@@ -124,8 +124,23 @@ class TurnosController extends AppController {
 			throw new NotFoundException(__('Invalid turno'));
 		}
 		if ($this->request->is('post') || $this->request->is('put')) {
+                        $data['Turno']['id'] = $id;
+                        $data['Turno']['pacientes_id'] = $this->request->data['Turno']['idPaciente'];
+                        $data['Turno']['profesionales_id'] = $this->request->data['Turno']['idProfesional'];
+                        $data['Turno']['especialidades_id'] = $this->request->data['Turno']['idEspecialidad'];       
+                        $anio = $this->request->data['Turno']['anio'];
+                        $mes = $this->request->data['Turno']['mes'];
+                        $dia = $this->request->data['Turno']['dia'];
+                        $hora = $this->request->data['Turno']['hora'];
+                                                       
+                        $fechaHora = new DateTime(sprintf("%s-%s-%s %s:00", trim($anio), trim($mes), trim($dia), trim($hora)));
+                        d($fechaHora);
+                        $data['Turno']['fechaHora'] = $fechaHora->date;
+
+                        $this->request->data = $data;
+                        
 			if ($this->Turno->save($this->request->data)) {
-				$this->Session->setFlash(__('The turno has been saved'));
+				$this->Session->setFlash(__('Datos guardados correctamente.'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The turno could not be saved. Please, try again.'));
@@ -134,10 +149,22 @@ class TurnosController extends AppController {
 			$options = array('conditions' => array('Turno.' . $this->Turno->primaryKey => $id));
 			$this->request->data = $this->Turno->find('first', $options);
 		}
-		$pacientes = $this->Turno->Paciente->find('list');
+                
+                $pacientes = $this->Turno->Paciente->find('all', array(
+                    'recursive' => 0,
+                    'fields' => array('Paciente.id', 'Paciente.nombre', 'Paciente.apellido', 'Paciente.dni'),
+                ));
+                
+                $aux = array();
+                foreach ($pacientes as $paciente) {
+                    $aux[$paciente['Paciente']['id']] = sprintf('%s, %s - DNI: %s', $paciente['Paciente']['nombre'], $paciente['Paciente']['apellido'], $paciente['Paciente']['dni']);
+                }
+                $pacientes = $aux;
+                                
 		$profesionales = $this->Turno->Profesionale->find('list');
 		$especialidades = $this->Turno->Especialidade->find('list');
 		$this->set(compact('pacientes', 'profesionales', 'especialidades'));
+                $this->layout = 'ajax';                        
 	}
 
 /**
@@ -154,14 +181,15 @@ class TurnosController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Turno->delete()) {
-			$this->Session->setFlash(__('Turno deleted'));
+//			$this->Session->setFlash(__('Turno deleted'));
 			return $this->redirect(array('action' => 'index'));
 		}
 		$this->Session->setFlash(__('Turno was not deleted'));
 		return $this->redirect(array('action' => 'index'));
 	}
         
-        public function agendaDiaria() {		            
+        public function agendaDiaria() {		                        
+                $this->Turno->recursive = 0;
                 $turnos = $this->Turno->find('all', array(
                         'conditions' => array('date(Turno.fechaHora)' => date('Y-m-d')),
                     ));

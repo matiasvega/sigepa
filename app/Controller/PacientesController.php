@@ -226,7 +226,8 @@ class PacientesController extends AppController {
             $this->Mpdf->setFilename('file.pdf'); 
 
             // setting output to I, D, F, S
-            $this->Mpdf->setOutput('I');
+//            $this->Mpdf->setOutput('I');
+            $this->Mpdf->setOutput('D');
 
             // you can call any mPDF method via component, for example:
 //            $this->Mpdf->SetWatermarkText("Draft"); 

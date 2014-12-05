@@ -1,8 +1,11 @@
 <?php 
         echo $this->Html->image('runBackup.png', array(     'title' => 'Backup', 
                                                             'class' => 'toolBarOption',
-                                                            'alt' => 'Backup'
+                                                            'alt' => 'Backup',
+                                                            'url' => array( 'controller' => 'backups', 
+                                                                            'action' => 'add', 
                                                             )
+                                                       )
                                 );
 
         echo $this->Html->image('configuration.png', array( 'title' => 'Preferencias', 

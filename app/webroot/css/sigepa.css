@@ -35,7 +35,7 @@
         width:200px;
         min-height:150px;
         background-color:#f9f9f9;
-        1background: #ece8da url(../../img/ui-bg_gloss-wave_100_ece8da_500x100.png) 50% 50% repeat-x;
+        /*1background: #ece8da url(../../img/ui-bg_gloss-wave_100_ece8da_500x100.png) 50% 50% repeat-x;*/
     }
 
     #panelHandle p {
