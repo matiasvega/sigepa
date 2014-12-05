@@ -184,7 +184,7 @@
                         'nombre' => 'Privilegios',
                     ),
                     array(
-                        'controller' => 'backups',
+                        'controller' => 'Backups',
                         'action' => 'index',
                         'nombre' => 'Backups',
                     ),
@@ -198,9 +198,14 @@
 //        dd($this->Session->read('Auth.User.grantActions'));
         
         
-//        dd($grantAction['Antecedentes']);
+//        dd($grantAction['Backups']);
         
         function verifyPrivileges($grantAction, $controlador, $accion) {
+                //d($controlador);
+//                if ($controlador == 'backups') {
+//                    d($accion);
+//                    dd($grantAction);
+//                }
 //            d($grantAction);
 //            d($controlador);
             if (!empty($grantAction)) {                
@@ -219,7 +224,7 @@
         }
         
         $html = array(); 
-        
+        //dd($this->Session->read('Auth.User.grantActions'));
         foreach ($itemsMenu as $itemMenu) {
             $html[] = "<li>";
             $html[] = $this->Html->link($itemMenu['nombreItem'], '#');

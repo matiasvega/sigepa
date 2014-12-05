@@ -95,12 +95,14 @@ $cakeDescription = __d('cake_dev', 'SI.GE.PA Sistema de gestion de pacientes');
 	<div id="container">
 		<div id="header">
                     <div id="menu"> 
-                        
+                        <!--nocache-->
                         <?php echo $this->element('menu'); ?> 
-                        
+                        <!--/nocache-->
                     </div>                        
                     <div id="toolbar"> 
+                        <!--nocache-->
                         <?php echo $this->element('toolbar'); ?>
+                        <!--/nocache-->
                     </div>  
 		</div>
 		<div id="content">
@@ -110,7 +112,7 @@ $cakeDescription = __d('cake_dev', 'SI.GE.PA Sistema de gestion de pacientes');
 			<?php echo $this->fetch('content'); ?>
 		</div>
 		<div id="footer">
-                    <div id="nombreSistema"> Sistema de Gestion de Pacientes v1.0 rc </div>
+                    <div id="nombreSistema"> Sistema de Gestion de Pacientes v1.5 rc </div>
                     <div id="powered">
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),

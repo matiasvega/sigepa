@@ -1059,3 +1059,48 @@ Stack Trace:
 #3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-12-05 21:48:20 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => 'Acl',
+)
+Request URL: /devel/sigepa/admin/acl/users/logout
+Stack Trace:
+#0 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-05 21:54:50 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-05 21:58:31 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-05 22:05:34 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-05 22:21:12 Error: [NotFoundException] Invalid paciente
+Request URL: /devel/sigepa/pacientes/ficha/
+Stack Trace:
+#0 [internal function]: PacientesController->ficha()
+#1 /var/www/html/devel/sigepa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PacientesController), Array)
+#2 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/devel/sigepa/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PacientesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/devel/sigepa/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
