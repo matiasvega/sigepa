@@ -49,7 +49,7 @@ class BackupsController extends AppController {
 //		if ($this->request->is('post')) {
 			$this->Backup->create();
                         
-                        d($this->request->data);
+//                        d($this->request->data);
                                                                        
                         $backup = array('Backup' => array(
                                                             'tag' => sprintf("Full backup SIGEPA %s", date('d-m-Y')),
@@ -64,8 +64,8 @@ class BackupsController extends AppController {
                                         );
                                                                                                 
                         if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-                            echo 'This is a server using Windows!';
-                            $path = ' ';
+                            echo 'This is a server using Windows!';                            
+                            $path = 'C:/xampp/mysql/bin/';
                         } else {
                             echo 'This is a server not using Windows!';
                             $path = '/usr/bin/';
