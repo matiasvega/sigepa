@@ -71,6 +71,7 @@ class BackupsController extends AppController {
                             $path = '/usr/bin/';
                         }
                         
+                        // se debe especificar la contraseña para cada db
                         $command = sprintf('%smysqldump -u root -px sigepa -r %s -v ', 
                                                 $path,
                                                 WWW_ROOT . 'files' . DS . $backup['Backup']['filename']

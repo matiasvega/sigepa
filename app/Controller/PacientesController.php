@@ -17,7 +17,7 @@ class PacientesController extends AppController {
         
         public $cacheAction = array(
 //            'add' => 48000,
-            'index'  => 48000,
+//            'index'  => 48000,
 //            'edit'  => 48000,
             'ficha'  => 48000,
 //            'antecedentes'  => 48000
