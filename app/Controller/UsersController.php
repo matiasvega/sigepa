@@ -62,7 +62,14 @@ class UsersController extends AppController {
 			}
 		}
 		$groups = $this->User->Group->find('list');
-		$this->set(compact('groups'));
+                $profesionales = ClassRegistry::init('Profesionale')->find('list', array(
+                                                    'conditions' => array(),
+                                                    'recursive' => 0,
+                                                                            )
+                                                            );
+                
+//                d($profesionales);
+		$this->set(compact('groups', 'profesionales'));
 	}
 
 /**
@@ -141,7 +148,8 @@ class UsersController extends AppController {
                     }              
                 }
 //                dd($granActions);
-                $this->Session->write('Auth.User.grantActions', $granActions);                
+                $this->Session->write('Auth.User.grantActions', $granActions);
+                $this->Session->write('Auth.User.profesional', $this->Auth->user('profesional_id'));
                 return $this->redirect($this->Auth->redirect());
             }
             $this->Session->setFlash(__('Nombre de Usuario o Contraseña incorrecto.'), 'flash_error');

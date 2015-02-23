@@ -26,17 +26,27 @@ class TurnosController extends AppController {
  * @return void
  */
 	public function index() {
+               
                 $especialidades = ClassRegistry::init('Especialidade')->find('list');
 //                d($especialidades);
                 $this->set('especialidades', $especialidades);
                 $profesionales = ClassRegistry::init('Profesionale')->find('list');
 //                d($profesionales);
                 $this->set('profesionales', $profesionales);
-            
-		$this->Turno->recursive = 0;
-                $turnos = $this->Turno->find('all');
                 
-                $this->set('turnos', $turnos);
+//                $responses = file_get_contents('/var/www/html/devel/testYowsup/responses');
+                $responses = shell_exec('timeout 20 python /var/www/html/devel/testYowsup/listener.py');
+                dd($responses);
+
+                $profesional = $this->Session->read('Auth.User.profesional');
+                d($profesional);
+//		$this->Turno->recursive = 0;                               
+//                $turnos = $this->Turno->find('all', array(
+//                                                            'conditions' => $conditions,                
+//                                                         )
+//                                            );
+//                
+//                $this->set('turnos', $turnos);
 
                 
 	}
@@ -62,31 +72,24 @@ class TurnosController extends AppController {
  * @return void
  */
 	public function add($dia, $mes, $anio, $especialidad, $profesional) {
+            
                 if ($mes < 10) {
                     $mes = sprintf('0%s', $mes+1);
                 }
-                        
+                                        
 		if ($this->request->is('post')) {
-			$this->Turno->create();
-                        
+			$this->Turno->create();                        
                         $data['Turno']['pacientes_id'] = $this->request->data['Turno']['idPaciente'];
-                        $data['Turno']['profesionales_id'] = $this->request->data['Turno']['idProfesional'];
-                        $data['Turno']['especialidades_id'] = $this->request->data['Turno']['idEspecialidad'];                        
-//                        d($dia);
-//                        d($mes);
-//                        d($anio);
-//                        d($this->request->data['Turno']['hora']);
-                        $fechaHora = new DateTime(sprintf("%s-%s-%s %s:00", $anio, $mes+1, $dia, 
-                        $this->request->data['Turno']['hora']));
-                        d($fechaHora);
-                        d($fechaHora->date);
-                        $data['Turno']['fechaHora'] = $fechaHora->date;
+                        $data['Turno']['profesionales_id'] = $profesional;
+                        $data['Turno']['especialidades_id'] = $especialidad;                                                                                                
+                        $fecha=date_create(sprintf("%s-%s-%s", $anio, $mes, $dia));
+                        $hora = explode(':', $this->request->data['Turno']['hora']);
+                        date_time_set($fecha, $hora[0], $hora[1]);
+                        $data['Turno']['fechaHora'] = date_format($fecha,"Y-m-d H:i:s");
                         
                         $this->request->data = $data;
 //                        dd($this->request->data);
-                        
 			if ($this->Turno->save($this->request->data)) {
-//                                dd('xxx');
 				$this->Session->setFlash(__('Datos guardados correctamente.'), 'flash_ok');
 				return $this->redirect(array('action' => 'index'));
 			} else {
@@ -204,6 +207,85 @@ class TurnosController extends AppController {
                                             );
                 }
 	}
+        
+     public function getProfesionales($idEspecialidad) {
+        if (!empty($idEspecialidad)) {
+            $profesionales = ClassRegistry::init('EspecialidadesProfesionale')->find('all', array(
+                                                    'conditions' => array(
+                                                            'EspecialidadesProfesionale.especialidades_id' => $idEspecialidad,
+                                                                        ),
+                                                     'recursive' => 1,
+                                                                            )
+                                                            );                    
+//            dd($profesionales);
+//            dd(Set::extract('{n}.Profesionales', $profesionales));
+            $profesionales = json_encode(Set::extract('{n}.Profesionales', $profesionales));
+            $this->set('profesionales', $profesionales);
+        }
+        $this->layout = 'ajax';
+    }
+    
+    public function getTurnos() {
+        
+//        $this->request->data['anioDesde'] = 2014;
+//        $this->request->data['mesDesde'] = 12;
+//        $this->request->data['diaDesde'] = 29;
+//        
+//        $this->request->data['anioHasta'] = 2015;
+//        $this->request->data['mesHasta'] = 02;
+//        $this->request->data['diaHasta'] = 07;
+
+//        d($this->request->data);
+        
+        // Para identificar si el uisuario logeado es un profesional
+        $profesional = $this->Session->read('Auth.User.profesional');
+
+        $conditions = array();
+        if (!empty($profesional)) {
+            $conditions['Turno.profesionales_id'] = $profesional;
+        }
+        // Para identificar un profesional por el que estan filtrando
+        if (!empty($this->request->data['profesional_id'])) {
+            $conditions['Turno.profesionales_id'] = $this->request->data['profesional_id'];
+        }
+
+        $desde = date_create(sprintf("%s-%s-%s", $this->request->data['anioDesde'], $this->request->data['mesDesde'], $this->request->data['diaDesde']));
+        
+        if (!empty($desde)) {
+            $conditions['Turno.fechaHora >='] = date_format($desde,"Y-m-d H:i:s");
+        }
+        
+        $hasta = date_create(sprintf("%s-%s-%s", $this->request->data['anioHasta'], $this->request->data['mesHasta'], $this->request->data['diaHasta']));
+        
+        if (!empty($hasta)) {
+            $conditions['Turno.fechaHora <='] = date_format($hasta,"Y-m-d H:i:s");
+        }
+
+        $this->Turno->recursive = 0;
+        $turnos = $this->Turno->find('all', array(
+                                                    'conditions' => $conditions,
+                                                 )
+                                    );
+
+//        dd($turnos);
+//        $turnos = json_encode(Set::extract('{n}.Turno', $turnos));        
+        
+        
+        $events = array();
+        if (!empty($turnos)) {        
+            foreach ($turnos as $k => $turno) {
+    //            dd($turno);
+                $events[$k]['title'] = sprintf('%s, %s', $turno['Paciente']['nombre'], $turno['Paciente']['apellido']);
+                $events[$k]['start'] = $turno['Turno']['fechaHora'];
+                $events[$k]['allDay'] = false;
+                $events[$k]['idTurno'] = $turno['Turno']['id'];
+            }
+        }
+                                     
+        $this->set('events', $events);
+        
+        $this->layout = 'ajax';
+    }
         
         
 }

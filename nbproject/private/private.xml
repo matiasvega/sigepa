@@ -3,10 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/html/devel/sigepa/app/Controller/BackupsController.php</file>
-            <file>file:/var/www/html/devel/sigepa/app/View/Elements/menu.ctp</file>
-            <file>file:/var/www/html/devel/sigepa/app/View/Backups/add.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Pacientes/ajax_data_pacientes.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/PacientesController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/TurnosController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/index.ctp</file>
             <file>file:/var/www/html/devel/sigepa/app/View/Layouts/default.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Pacientes/index.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/get_profesionales.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/get_turnos.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Turnos/add.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/Model/Profesionale.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/UsersController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/Model/User.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/Controller/AppController.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/Model/Paciente.php</file>
+            <file>file:/var/www/html/devel/sigepa/app/webroot/js/jquery.dataTables.js</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Pacientes/ajax_data.ctp</file>
+            <file>file:/var/www/html/devel/sigepa/app/webroot/css/jquery.dataTables.css</file>
+            <file>file:/var/www/html/devel/sigepa/app/View/Users/add.ctp</file>
         </group>
     </open-files>
 </project-private>

@@ -45,7 +45,8 @@ class AppController extends Controller {
                             'authError' => 'Para ingresar en el sistema, debes utilizar tu nombre de usuario y contraseña.',
                             'authorize' => array(
                                                     'Actions' => array('actionPath' => 'controllers'),
-                                                )
+                                                ),
+                            
                                         )
         );
     

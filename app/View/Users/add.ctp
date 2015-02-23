@@ -1,6 +1,8 @@
 <script type="text/javascript">
 
     jQuery(document).ready(function() {
+
+        jQuery('select').chosen();
         
         jQuery('#panelHandle').hover(function() {
             jQuery('#sidePanel').stop(true, false).animate({
@@ -19,6 +21,17 @@
                 left: '-201px'
             }, 400);
 
+        });
+
+        $('#group_id').bind('change', function() {
+            console.log($(this).val());
+            if ($(this).val() == 2) {
+                $('#profesional_id').attr('disabled', false);
+                $('#profesional_id').trigger('chosen:updated');
+            } else {
+                $('#profesional_id').attr('disabled', true);
+                $('#profesional_id').trigger('chosen:updated');
+            }
         });
         
     });
@@ -42,7 +55,20 @@
 	<?php
                 echo $this->Form->input('username', array('label' => 'Usuario'));
 		echo $this->Form->input('password', array('label' => 'Password'));
-		echo $this->Form->input('group_id', array('label' => 'Grupo'));
+		echo $this->Form->input('group_id', array(
+                                                    'label' => 'Grupo',
+                                                    'id' => 'group_id',
+                                                        )
+                                        );
+
+                echo $this->Form->input('profesional_id', array(
+                                                    'id' => 'profesional_id',
+                                                    'label' => 'Profesional',
+                                                    'options' => $profesionales,
+                                                    'empty' => 'Sin asignar',
+                                                    'disabled' => true,
+                                                                )
+                                        );
                 
                 echo $this->Form->button('Guardar', array(   
                                             'type' => 'submit',

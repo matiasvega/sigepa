@@ -124,7 +124,7 @@ $cakeDescription = __d('cake_dev', 'SI.GE.PA Sistema de gestion de pacientes');
 		</div>
 	</div>
         <!--nocache-->
-	<?php //  echo $this->element('sql_dump'); ?>
+	<?php // echo $this->element('sql_dump'); ?>
         <!--/nocache-->
 </body>
 </html>

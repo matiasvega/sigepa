@@ -28,7 +28,7 @@ class PacientesController extends AppController {
  *
  * @return void
  */
-	public function index() {
+	public function index() {                
 		$this->Paciente->recursive = 0;
                 $pacientes = $this->Paciente->find('all');
 		$this->set('pacientes', $pacientes);
@@ -235,6 +235,37 @@ class PacientesController extends AppController {
             $this->Mpdf->WriteHTML('<p>Hallo World</p> <div> <b> xxxxxxxxxxxxxx </b> </div>');
             
 
-        }               
+        }
+        
+        public function ajaxData() {
+            
+        }
+        
+        
+        public function ajaxDataPacientes() {
+            $this->modelClass = "Paciente";
+            $this->autoRender = false;          
+            $output = $this->Paciente->GetData();
+//            dd($output);
+            echo json_encode($output);
+//            d('xxxx');
+            $this->layout = "ajax";
+//            d($output);
+//            $this->set('output', json_encode($output));
+        }
+        
+        public function deletePacienteAjax($id = null) {
+            $this->Paciente->id = $id;
+            if (!$this->Paciente->exists()) {
+                    throw new NotFoundException(__('Invalid paciente'));
+            }
+//            $this->request->onlyAllow('post', 'delete');
+            if ($this->Paciente->delete()) {
+                    $this->Session->setFlash(__('Los datos fueron eliminados'), 'flash_ok');
+                    return $this->redirect(array('action' => 'ajaxData'));
+            }
+            $this->Session->setFlash(__('Paciente was not deleted'), 'flash_error');
+            return $this->redirect(array('action' => 'ajaxData'));
+	}
         
 }

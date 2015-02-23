@@ -159,7 +159,7 @@
                                                                    'value' => 1,
                                                             )
                                         );
-////                
+//////                
                 echo $this->Form->input('idEspecialidad', array(    'id' => 'idEspecialidad', 
                                                                     'type' => 'hidden',
                                                                     'value' => 1,
